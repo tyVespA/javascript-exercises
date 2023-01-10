@@ -33,7 +33,7 @@ const power = function(num1, num2) {
   let result = 1
 
   for(; num2 > 0; num2--) {
-    result = result * num1
+    result *= num1
   }
   return result
 };
@@ -41,7 +41,7 @@ const power = function(num1, num2) {
 const factorial = function(num) {
   let result = 1;
 	for (let i = num; i > 0; i--) {
-    result = result * i
+    result *= i
   }
   return result
 };
